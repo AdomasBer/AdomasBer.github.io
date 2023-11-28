@@ -1,0 +1,32 @@
+print-styles.css
+
+body {
+    font-family: 'serif'; /* Serifinis šriftas */
+  }
+  
+  .print-content {
+    page-break-before: always; /* Puslapio pertrauka prieš kiekvieną bloką */
+  }
+  
+  img {
+    max-width: 100%; /* Vaizdo plotis neviršija puslapio pločio */
+  }
+  
+  table {
+    width: 100%; /* Lentelė užima visą puslapio plotį */
+    border-collapse: collapse; /* Suliejamos lentelės kraštai */
+  }
+  
+  th, td {
+    border: 1px solid #ddd; /* Lentelės kraštų spalva */
+    padding: 8px; /* Ląstelės vidus-padding */
+    text-align: left; /* Teksto lygiavimas kairėje */
+  }
+  
+  /* Nuoroda spausdinimui - paslėpta naršymo režime */
+  .print-link {
+    display: none;
+  }
+  
+  /* ... kitos stiliaus taisyklės, kurias galbūt norėsite pridėti ... */
+  
